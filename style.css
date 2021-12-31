@@ -1,107 +1,105 @@
+/*-----------------------------------------------------Head/Upper Part Starts from Here---------------------------------------------------------*/
+
 body {
-  margin: 0;
-  padding: 0;
-  background: url(bg.jpg) no-repeat;
-  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-color: #f1f1f1;
+  margin: 0px;
+  padding: 0px;
 }
-.box {
-  width: 40%;
-  background: rgba(0, 0, 0, 0.4);
-  padding: 40px;
+/*Formating for Heading */
+.Name {
+  font-family: "Karla", sans-serif;
+  padding-top: 50px;
+  padding-bottom: none;
+  font-size: 30px;
   text-align: center;
-  margin: auto;
-  margin-top: 5%;
-  color: white;
-  font-family: century-gothic, sans-serif;
-}
-.box-img {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-}
-.box h1 {
-  font-size: 40px;
-  letter-spacing: 4px;
-  font-weight: 100;
-}
-.box h5 {
-  font-size: 20px;
-  letter-spacing: 3px;
-  font-weight: 100;
-}
-.box p {
-  text-align: justify;
-}
-ul {
-  margin: 0;
-  padding: 0;
-}
-.box li {
-  display: inline-block;
-  margin: 6px;
-  list-style: none;
-}
-.box li a {
-  color: white;
-  text-decoration: none;
-  font-size: 60px;
-  transition: all ease-in-out 250ms;
-}
-.box li a:hover {
-  color: #b9b9b9;
 }
 
-@media screen and (max-width: 481px) {
-  body {
-    margin: 0;
-    padding: 0;
-    background: url(bg.jpg) no-repeat;
-    background-size: cover;
-  }
-  .box {
-    width: 40%;
-    background: rgba(0, 0, 0, 0.4);
-    padding: 40px;
-    text-align: center;
-    margin: auto;
-    margin-top: 5%;
-    color: white;
-    font-family: century-gothic, sans-serif;
-  }
-  .box-img {
-    border-radius: 50%;
-    width: 100%;
-    height: 100%;
-  }
-  .box h1 {
-    font-size: 160%;
-    letter-spacing: 4px;
-    font-weight: 100;
-  }
-  .box h5 {
-    font-size: 100%;
-    letter-spacing: 3px;
-    font-weight: 100;
-  }
-  .box p {
-    text-align: justify;
-  }
-  ul {
-    margin: 0;
-    padding: 0;
-  }
-  .box li {
-    display: inline-block;
-    margin: 6px;
-    list-style: none;
-  }
-  .box li a {
-    color: white;
-    text-decoration: none;
-    font-size: 60px;
-    transition: all ease-in-out 250ms;
-  }
-  .box li a:hover {
-    color: #b9b9b9;
-  }
+/*Formating for Heading_1 */
+.Job {
+  font-family: "Karla", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  margin-top: -30px;
+}
+
+/* Style the header */
+.header {
+  padding: -60px;
+  background: transparent;
+  color: #424242;
+  word-spacing: 15px;
+  font-family: "Karla", san-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+/*-----------------------------------------------------Body Part Starts from Here------------------------------------------------------------*/
+
+/*Splits and formats the entire webiste into 2 parts*/
+.row {
+  display: flex;
+  width: 70%;
+  align-content: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 100%;
+}
+
+/* Format for Para_head */
+.para_head {
+  font-family: "Karla", san-serif;
+  font-size: 50px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+/* Format for Para_head */
+.para_head_small {
+  font-family: "Karla", san-serif;
+  font-size: 30px;
+  padding-top: -20px;
+  text-align: center;
+  color: #424242;
+}
+
+/* Formating Para left text*/
+.para_left {
+  left: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+/* Formating Para left text*/
+.para_right_center {
+  left: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 20px;
+  padding-top: -20px;
+  text-align: center;
+  color: #424242;
+  padding-right: 5px;
+}
+
+/*Change line spacing between List Item*/
+.li {
+  padding-bottom: 4px 0;
+}
+
+/*Formatting para right text*/
+.para_right {
+  left: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-left: 5px;
 }
